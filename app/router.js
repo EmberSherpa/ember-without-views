@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('route-one');
   this.route('route-one-component');
+  this.route('route-one-pod');
 });
 
 export default Router;
