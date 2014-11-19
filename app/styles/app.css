@@ -1,3 +1,26 @@
 html, body {
   margin: 20px;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.route-with-view:before {
+  content: "";
+  display: block;
+  background-image: url('/images/route-with-view.jpg');
+  background-repeat: no-repeat;
+  width: 620px;
+  height: 349px;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
+.going-south:before {
+  transform: scaleX(-1); filter: FlipH;
+}
+
+.going-north:before {
+  transform: scaleX(1); filter: FlipH;
+}
