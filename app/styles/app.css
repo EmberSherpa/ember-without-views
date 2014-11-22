@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5 {
 .route-with-view:before {
   content: "";
   display: block;
-  background-image: url('/images/route-with-view.jpg');
+  background-image: url('images/route-with-view.jpg');
   background-repeat: no-repeat;
   width: 620px;
   height: 349px;
@@ -23,4 +23,18 @@ h1, h2, h3, h4, h5 {
 
 .going-north:before {
   transform: scaleX(1); filter: FlipH;
+}
+
+.cow {
+  transition: 0.2s;
+  max-height: 200px;
+}
+
+.tipped {
+  -moz-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -ms-filter: flipv; /*IE*/
+  filter: flipv;
 }

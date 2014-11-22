@@ -18,5 +18,6 @@ var app = new EmberApp();
 // along with the exports of each module as its value.
 
 app.import('vendor/open-sans.css');
+app.import('vendor/jquery-tipper.js');
 
 module.exports = app.toTree();
