@@ -24,6 +24,9 @@ Router.map(function() {
     this.route('with-helper');
   });
   this.route('triggering-events/on-action-helper');
+  this.route('container-view', function(){
+
+  });
 });
 
 export default Router;

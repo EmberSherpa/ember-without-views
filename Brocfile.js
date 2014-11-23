@@ -19,6 +19,7 @@ var app = new EmberApp();
 
 app.import('bower_components/normalize.css/normalize.css');
 app.import('vendor/open-sans.css');
+app.import('vendor/raleway.css');
 app.import('vendor/jquery-tipper.js');
 
 module.exports = app.toTree();

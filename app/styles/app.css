@@ -11,8 +11,17 @@ div, img, section, main, header {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+h1 small, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 small {
+  font-size: 18px;
 }
 
 header, main {
@@ -20,8 +29,10 @@ header, main {
 }
 
 header {
+  color: #260D0D;
   height: 85px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 header h1 {
@@ -116,5 +127,27 @@ main {
   filter: flipv;
 }
 
+/**
+ * n-list
+ */
+.n-list {
+  display: inline-block;
+  width: 200px;
+}
 
+.n-list-item {
+  padding: 10px;
+  color: white;
+}
 
+.odd {
+  background-color: #FFC803;
+}
+
+.even {
+  background-color: #319190;
+}
+
+.three {
+  background-color: #D9321C;
+}

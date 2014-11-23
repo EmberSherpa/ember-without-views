@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url(http://fonts.gstatic.com/s/raleway/v9/1ImRNPx4870-D9a1EBUdPFQlYEbsez9cZjKsNMjLOwM.eot);
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(http://fonts.gstatic.com/s/raleway/v9/1ImRNPx4870-D9a1EBUdPFQlYEbsez9cZjKsNMjLOwM.eot) format('embedded-opentype'), url(http://fonts.gstatic.com/s/raleway/v9/1ImRNPx4870-D9a1EBUdPBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
