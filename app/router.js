@@ -17,8 +17,11 @@ Router.map(function() {
     this.route('with-helper');
     this.route('with-component');
   });
+
+  // manipulating DOM
   this.route('triggering-events', function(){
     this.route('in-view');
+    this.route('with-helper');
   });
 });
 
