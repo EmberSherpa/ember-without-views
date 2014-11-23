@@ -23,6 +23,7 @@ Router.map(function() {
     this.route('in-view');
     this.route('with-helper');
   });
+  this.route('triggering-events/on-action-helper');
 });
 
 export default Router;
