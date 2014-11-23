@@ -18,7 +18,7 @@ Router.map(function() {
     this.route('with-component');
   });
   this.route('triggering-events', function(){
-    this.route('with-bindings');
+    this.route('in-view');
   });
 });
 
