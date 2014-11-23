@@ -1,9 +1,11 @@
 import Ember from 'ember';
 
-export default Ember.Controller.extend({
+export default Ember.ArrayController.extend({
+  queryParams: ['page'],
+  page: 1,
   actions: {
-    say: function(message) {
-      this.set('message', message);
+    changePage: function(page) {
+      this.set('page', page);
     }
   }
 });

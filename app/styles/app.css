@@ -1,11 +1,88 @@
-html, body {
-  margin: 20px;
+html, body, .ember-application > .ember-view {
+  height: 100%;
+}
+
+.ember-application > .ember-view {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+div, img, section, main, header {
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
 }
 
+header, main {
+  margin: 0 40px;
+}
+
+header {
+  height: 85px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header h1, header h3 {
+  display: inline-block;
+}
+
+header h3 {
+  float: right;
+  margin-top: 1.9em;
+}
+
+main {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.left-spacing {
+  margin-left: 20px;
+}
+
+/**
+ * Long List
+ */
+.long-list {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid grey;
+  height: 200px;
+  overflow: scroll;
+}
+
+.long-list ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+  border: 1px dashed grey;
+}
+
+.long-list ul li {
+  padding: 10px;
+  border-top: 1px dotted grey;
+}
+
+.long-list ul li:first-of-type {
+  border-top: 0;
+}
+
+.img-too-damn-high {
+  max-height: 200px;
+}
+
+/**
+ * Route with a view
+ */
 .route-with-view:before {
   content: "";
   display: block;
@@ -38,3 +115,6 @@ h1, h2, h3, h4, h5 {
   -ms-filter: flipv; /*IE*/
   filter: flipv;
 }
+
+
+
