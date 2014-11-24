@@ -25,7 +25,7 @@ Router.map(function() {
   });
   this.route('triggering-events/on-action-helper');
   this.route('container-view', function(){
-
+    this.route('with-helper');
   });
 });
 

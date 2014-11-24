@@ -97,7 +97,7 @@ main {
 .route-with-view:before {
   content: "";
   display: block;
-  background-image: url('images/route-with-view.jpg');
+  background-image: url('/images/route-with-view.jpg');
   background-repeat: no-repeat;
   width: 620px;
   height: 349px;
