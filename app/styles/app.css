@@ -71,6 +71,10 @@ main {
   width: 200px;
 }
 
+.left-area img {
+  max-width: 200px;
+}
+
 .right-area {
   width: 490px;
   text-align: left;
