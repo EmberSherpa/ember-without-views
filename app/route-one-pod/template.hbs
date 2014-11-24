@@ -1,7 +1,0 @@
-{{#route-with-component
-  tagName="section"
-  classNameBindings=":route-with-view isGoingSouth:going-south:going-north"
-  isGoingSouth=isGoingSouth
-}}
-  <button {{action 'toogleDirection'}}>{{#if isGoingSouth}}Go South{{else}}Go North{{/if}}</button>
-{{/route-with-component}}

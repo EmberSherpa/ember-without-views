@@ -94,10 +94,10 @@ main {
 /**
  * Route with a view
  */
-.route-with-view:before {
+.route-one:before {
   content: "";
   display: block;
-  background-image: url('/images/route-with-view.jpg');
+  background-image: url('/images/route-one-view.jpg');
   background-repeat: no-repeat;
   width: 620px;
   height: 349px;

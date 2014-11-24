@@ -7,9 +7,10 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   // Binding Attributes
-  this.route('route-one');
-  this.route('route-one-component');
-  this.route('route-one-pod');
+  this.route('bind-attr', function(){
+    this.route('with-component');
+  });
+  this.route('bind-attr/with-component-in-pod');
 
   // didInsertElement
   this.route('tipping', function(){
@@ -27,6 +28,8 @@ Router.map(function() {
   this.route('container-view', function(){
     this.route('with-helper');
   });
+
+
 });
 
 export default Router;
