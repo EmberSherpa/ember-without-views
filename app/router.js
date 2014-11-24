@@ -9,6 +9,8 @@ Router.map(function() {
 
   // Binding Attributes
   this.route('bind-attr', function(){
+    this.route('challenge-accepted');
+    this.route('with-route-view');
     this.route('with-component');
   });
   this.route('bind-attr/with-component-in-pod');

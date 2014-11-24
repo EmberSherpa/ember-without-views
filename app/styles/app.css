@@ -59,6 +59,11 @@ header h3 {
   margin-top: 1.9em;
 }
 
+h4, h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 main {
   text-align: center;
 }
@@ -139,12 +144,12 @@ pre {
   transform-style: preserve-3d;
 }
 
-.going-south .left-area:before {
-  transform: scaleX(-1); filter: FlipH;
+.south .left-area:before {
+  transform: scaleX(1); filter: FlipH;
 }
 
-.going-north .left-area:before {
-  transform: scaleX(1); filter: FlipH;
+.north .left-area:before {
+  transform: scaleX(-1); filter: FlipH;
 }
 
 .cow {

@@ -1,10 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+  queryParams: ['direction'],
+  direction: 'south',
   actions: {
     toggleDirection: function() {
-      this.toggleProperty('direction');
+      this.set('direction', this.get('direction') === 'south' ? 'north' : 'south');
     }
-  },
-  direction: false
+  }
 });
