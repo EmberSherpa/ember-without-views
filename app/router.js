@@ -6,6 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+
   // Binding Attributes
   this.route('bind-attr', function(){
     this.route('with-component');
@@ -13,22 +14,22 @@ Router.map(function() {
   this.route('bind-attr/with-component-in-pod');
 
   // didInsertElement
-  this.route('tipping', function(){
-    this.route('with-view');
+  this.route('did-insert-element', function(){
     this.route('with-helper');
     this.route('with-component');
   });
 
-  // manipulating DOM
-  this.route('triggering-events', function(){
+  // State Change
+  this.route('state-change', function(){
     this.route('in-view');
     this.route('with-helper');
   });
-  this.route('triggering-events/on-action-helper');
+  this.route('state-change/on-action-helper');
+
+  // Container View
   this.route('container-view', function(){
     this.route('with-helper');
   });
-
 
 });
 
