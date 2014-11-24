@@ -20,8 +20,16 @@ h1 small, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
 h1 small {
   font-size: 18px;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 header, main {
@@ -30,7 +38,7 @@ header, main {
 
 header {
   color: #260D0D;
-  height: 85px;
+  height: 65px;
   text-align: center;
 }
 
@@ -40,6 +48,10 @@ header h1 {
 
 header h1, header h3 {
   display: inline-block;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 header h3 {
@@ -53,11 +65,17 @@ main {
 
 .left-area, .right-area {
   display: inline-block;
-  width: 350px;
+}
+
+.left-area {
+  width: 200px;
 }
 
 .right-area {
+  width: 490px;
+  text-align: left;
   margin-left: 10px;
+  vertical-align: top;
 }
 
 .inline-block {
@@ -66,6 +84,11 @@ main {
 
 .left-spacing {
   margin-left: 20px;
+}
+
+pre {
+  margin-top: 0;
+  font-size: 90%;
 }
 
 /**
@@ -107,7 +130,7 @@ main {
   display: block;
   background: url('/images/route-one-view.jpg') no-repeat;
   background-size: contain;
-  height: 200px;
+  height: 120px;
   transition: 0.6s;
   transform-style: preserve-3d;
 }
