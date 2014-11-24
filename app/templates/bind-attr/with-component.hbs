@@ -1,5 +1,10 @@
-{{#route-one-component
-  isGoingSouth=isGoingSouth
-}}
-  <button {{action 'toggleDirection'}}>Go {{#if isGoingSouth}}South{{else}}North{{/if}}</button>
+<h2>Bind Attributes: <small>Route with Component</small></h2>
+
+{{#route-one-component direction=direction}}
+  <div class="left-area">
+    <button {{action 'toggleDirection'}}>U Turn</button>
+  </div>
+  <div class="right-area">
+
+  </div>
 {{/route-one-component}}

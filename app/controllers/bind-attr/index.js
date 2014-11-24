@@ -3,8 +3,8 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   actions: {
     toggleDirection: function() {
-      this.toggleProperty('isGoingSouth');
+      this.toggleProperty('direction');
     }
   },
-  isGoingSouth: false
+  direction: false
 });
