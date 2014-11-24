@@ -17,6 +17,7 @@ Router.map(function() {
 
   // didInsertElement
   this.route('did-insert-element', function(){
+    this.route('with-route-view');
     this.route('with-helper');
     this.route('with-component');
   });
