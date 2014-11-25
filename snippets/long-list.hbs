@@ -1,0 +1,9 @@
+<!-- templates/long-list.hbs -->
+<div class="long-list">
+  <ul>
+    {{#each}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+  {{#next-page tagName="button" change-page="changePage" page=page}}Next Page{{/next-page}}
+</div>

@@ -1,12 +1,15 @@
 <h2>Respond to State Change</h2>
 
-<div class="long-list inline-block">
-  <ul>
-    {{#each}}
-      <li>{{this}}</li>
-    {{/each}}
-  </ul>
-  {{#next-page tagName="button" change-page="changePage" page=page}}Next Page{{/next-page}}
+<div class="left-area">
+  <div class="long-list">
+    <ul>
+      {{#each}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    {{#next-page tagName="button" change-page="changePage" page=page}}Next Page{{/next-page}}
+  </div>
 </div>
-
-{{outlet}}
+<div class="right-area">
+  {{outlet}}
+</div>

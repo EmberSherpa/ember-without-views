@@ -1,5 +1,4 @@
-import Ember from 'ember';
-
+// components/go-tipping.js
 export default Ember.Component.extend({
   selector: null,
   didInsertElement: function() {

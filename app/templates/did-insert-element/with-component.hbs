@@ -1,10 +1,11 @@
 <h2>didInsertElement <small>with component</small></h2>
 
-{{#go-tipping selector='.cow'}}
-  <div class="left-area">
+<div class="left-area">
+  {{#go-tipping selector='.cow'}}
     <img src="images/cow-1.jpg" class="cow"/>
-  </div>
-  <div class="right-area">
-
-  </div>
-{{/go-tipping}}
+  {{/go-tipping}}
+</div>
+<div class="right-area">
+  {{code-snippet name="did-insert-element-component.hbs"}}
+  {{code-snippet name="components-go-tipping.js"}}
+</div>

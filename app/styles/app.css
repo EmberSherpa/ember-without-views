@@ -64,6 +64,11 @@ h4, h5 {
   margin-bottom: 10px;
 }
 
+h4 em {
+  font-weight: normal;
+  font-style: normal;
+}
+
 main {
   text-align: center;
 }
@@ -97,14 +102,13 @@ main {
 
 pre {
   margin-top: 0;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 /**
  * Long List
  */
 .long-list {
-  width: 300px;
   padding: 20px;
   border: 2px solid grey;
   height: 200px;
