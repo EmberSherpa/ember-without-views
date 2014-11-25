@@ -10,7 +10,7 @@ export default function(){
         liquid.toRoute(current),
         liquid.use('toLeft'),
         liquid.reverse('toRight')
-      )
+      );
     }
     last = current;
   });
