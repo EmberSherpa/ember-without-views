@@ -12,6 +12,7 @@ export default [
   'did-insert-element.index',
   'did-insert-element.with-route-view',
   'did-insert-element.with-component',
+  'state-change.index',
   'state-change.in-view',
   'state-change.with-component',
   'container-view.index',

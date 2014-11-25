@@ -32,6 +32,7 @@
     "ember-helpers-render-component": "^0.2.0",
     "ember-social": "git+ssh://git@github.com:taras/ember-social.git",
     "express": "^4.8.5",
-    "glob": "^4.0.5"
+    "glob": "^4.0.5",
+    "liquid-fire": "^0.15.0"
   }
 }
