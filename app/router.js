@@ -31,6 +31,7 @@ Router.map(function() {
 
   // Container View
   this.route('container-view', function(){
+    this.route('with-view');
     this.route('with-helper');
   });
 

@@ -1,5 +1,13 @@
-<div class="n-list">
-  {{#each}}
-    {{render-component componentName value=value}}
-  {{/each}}
+<h2>Container View <small>with \{{render-component}} helper</small></h2>
+
+<div class="left-area">
+  <div class="n-list">
+    {{#each}}
+      {{render-component componentName value=value}}
+    {{/each}}
+  </div>
+</div>
+<div class="right-area">
+  {{code-snippet name="container-view-with-helper.hbs"}}
+  {{code-snippet name="container-view-with-helper-route.js"}}
 </div>
