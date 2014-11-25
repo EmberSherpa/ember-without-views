@@ -33,6 +33,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+img {
+  max-height: 300px;
+}
+
 header, main {
   margin: 0 40px;
 }
@@ -212,7 +216,7 @@ pre {
 }
 
 .next-slide {
-  width: 100px;
+  width: 60px;
   height: 100%;
   position: fixed;
   right: 0;
@@ -220,7 +224,7 @@ pre {
 }
 
 .previous-slide {
-  width: 100px;
+  width: 60px;
   height: 100%;
   position: fixed;
   left: 0;

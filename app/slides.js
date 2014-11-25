@@ -2,5 +2,20 @@ export default [
   'intro',
   'motivation',
   'announcement',
-  'component-all-things'
+  'component-all-things',
+  'thank-you-jk',
+  'bind-attr.index',
+  'bind-attr.challenge-accepted',
+  'bind-attr.with-route-view',
+  'bind-attr.with-component',
+  'bind-attr/with-component-in-pod',
+  'did-insert-element.index',
+  'did-insert-element.with-route-view',
+  'did-insert-element.with-component',
+  'state-change.in-view',
+  'state-change.with-component',
+  'container-view.index',
+  'container-view.with-view',
+  'container-view.with-helper',
+  'thank-you'
 ];

@@ -11,6 +11,8 @@ Router.map(function() {
   this.route('motivation');
   this.route('announcement');
   this.route('component-all-things');
+  this.route('thank-you-jk');
+  this.route('thank-you');
 
   // Binding Attributes
   this.route('bind-attr', function(){
@@ -23,7 +25,6 @@ Router.map(function() {
   // didInsertElement
   this.route('did-insert-element', function(){
     this.route('with-route-view');
-    this.route('with-helper');
     this.route('with-component');
   });
 
