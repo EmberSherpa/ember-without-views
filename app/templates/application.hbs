@@ -1,6 +1,10 @@
-<header>
-  <h1 id='title'>Ember without Views <small>by EmberSherpa</small></h1>
-</header>
-<main>
-  {{outlet}}
-</main>
+<div {{bind-attr class=currentRouteClass}}>
+  <header>
+    <h1 id='title'>Ember without Views</h1>
+  </header>
+  <main>
+    {{outlet}}
+  </main>
+</div>
+<button class="next-slide" {{action 'nextSlide'}}>Next</button>
+<button class="previous-slide" {{action 'previousSlide'}}>Prev</button>

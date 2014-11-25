@@ -1,6 +1,5 @@
 <!-- long-list/index.hbs -->
-{{#long-list}}
-  {{on-action 'changePage' trigger="resetScrollTop" bubble=true}}
+{{#long-list page=page}}
   <ul>
     {{#each}}
       <li>{{this}}</li>

@@ -72,6 +72,7 @@ h4 em {
 
 main {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .left-area, .right-area {
@@ -194,4 +195,42 @@ pre {
 
 .three {
   background-color: #D9321C;
+}
+
+.next-slide, .previous-slide {
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+.next-slide:hover, .previous-slide:hover {
+  color: #C8D3D9;
+}
+
+.next-slide {
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.previous-slide {
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.line {
+  margin: 30px 0;
+}
+
+.twitter-tweet {
+  margin: 0 auto !important;
 }

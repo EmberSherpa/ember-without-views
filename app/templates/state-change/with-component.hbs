@@ -1,8 +1,7 @@
-<h2>Respond to State Change <small>with \{{on-action}} helper</small></h2>
+<h2>Respond to State Change <small>with component</small></h2>
 
 <div class="left-area">
-  {{#long-list classNames="long-list inline-block"}}
-    {{on-action 'changePage' trigger="resetScrollTop" bubble=true}}
+  {{#long-list page=page}}
     <ul>
       {{#each}}
         <li>{{this}}</li>
@@ -12,7 +11,6 @@
   {{/long-list}}
 </div>
 <div class="right-area">
-
-  {{code-snippet name="state-change-on-action.hbs"}}
+  {{code-snippet name="state-change-with-component.hbs"}}
   {{code-snippet name="long-list.js"}}
 </div>

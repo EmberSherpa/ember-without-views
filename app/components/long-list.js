@@ -2,7 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   classNames: ['long-list'],
-  resetScrollTop: function() {
-    this.$().scrollTop(0);
-  }
+  pageObserver: function() {
+    if (this.$()) {
+      this.$().scrollTop(0);
+    }
+  }.observes('page')
 });

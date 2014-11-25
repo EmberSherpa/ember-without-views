@@ -7,6 +7,11 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
 
+  this.route('intro');
+  this.route('motivation');
+  this.route('announcement');
+  this.route('component-all-things');
+
   // Binding Attributes
   this.route('bind-attr', function(){
     this.route('challenge-accepted');
@@ -25,9 +30,8 @@ Router.map(function() {
   // State Change
   this.route('state-change', function(){
     this.route('in-view');
-    this.route('with-helper');
+    this.route('with-component');
   });
-  this.route('state-change/on-action-helper');
 
   // Container View
   this.route('container-view', function(){
