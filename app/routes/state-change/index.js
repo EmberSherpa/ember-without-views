@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import range from '../utils/range';
+import range from '../../utils/range';
 
 export default Ember.Route.extend({
   queryParams: {

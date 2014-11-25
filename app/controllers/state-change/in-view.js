@@ -1,6 +1,3 @@
-import Ember from 'ember';
+import StateChangeController from './index';
 
-export default Ember.Controller.extend({
-  needs: ['state-change'],
-  page: Ember.computed.alias('controllers.state-change.page')
-});
+export default StateChangeController;

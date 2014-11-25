@@ -1,3 +1,21 @@
-<h4>Challenge: <em>Reset scrollTop to 0 when page changes.</em></h4>
+<h2>Respond to State Change <small>in View</small></h2>
 
-{{code-snippet name="long-list.hbs"}}
+<div class="left-area">
+  <div class="long-list">
+    <ul>
+      {{#each}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    {{#next-page tagName="button" change-page="changePage" page=page}}Next Page{{/next-page}}
+  </div>
+</div>
+<div class="right-area">
+  <h4>Challenge: <em>Reset scrollTop to 0 when page changes.</em></h4>
+
+  {{code-snippet name="long-list.hbs"}}
+</div>
+
+
+
+

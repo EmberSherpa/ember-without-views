@@ -1,3 +1,3 @@
-import StateChangeController from '../state-change';
+import StateChangeController from './index';
 
 export default StateChangeController;
